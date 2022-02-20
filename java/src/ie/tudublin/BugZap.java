@@ -2,15 +2,36 @@ package ie.tudublin;
 
 import processing.core.PApplet;
 
-public class BugZap extends PApplet {
+public class BugZap extends PApplet 
+{
+	float playerX, playerY, playerWidth;
+
+	//Setting screen size
 	public void settings() {
 		size(500, 500);
 	}
 
 	public void setup() {
-		reset();
+		colorMode(RGB);
+		smooth();
+
+		playerX = width/2;
+		playerY = height - 50;
+		playerWidth = 50;
+
+		//reset();
 	}
 
+	void drawPlayer(float x, float y, float w) 
+	{
+		stroke(255);
+		noFill();
+		rectMode(CENTER);
+		rect(x, y, w, 20);
+		line(x,y - 10, x, y - 20);
+	}
+
+	/*
 	float playerX, playerY;
 	float playerSpeed = 5;
 	float playerWidth = 40;
@@ -111,8 +132,17 @@ public class BugZap extends PApplet {
 	}
 
 	int gameMode = 0;
+	*/
+	public void draw()
+	{
+		background(0);
+		strokeWeight(2);
+		drawPlayer(playerX, playerY, playerWidth);
+	}
 
-	public void draw() {
+
+
+	/*
 		background(0);
 		if (gameMode == 0)
 		{
@@ -134,5 +164,5 @@ public class BugZap extends PApplet {
 			gameMode = 1;
 		}
 
-	}
+	}*/
 }
