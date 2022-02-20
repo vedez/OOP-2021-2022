@@ -16,7 +16,9 @@ public class Main
         System.out.println(misty);
         System.out.println(lucy);
 
-        
+
+    } 
+    public static void main(String[] args) {
         Cat cat = new Cat("Ginger");
 
         while(cat.getNumLives() > 0)
@@ -24,6 +26,6 @@ public class Main
             cat.kill();
         }
         cat.kill();
+    }
 
-    } 
 }
