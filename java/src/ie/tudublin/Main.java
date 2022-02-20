@@ -3,8 +3,7 @@ package ie.tudublin;
 public class Main
 {
 
-    public void cat()
-    {
+    public static void main(String[] args) {
         System.out.println("Hello world");
 
         Animal misty = new Animal("Misty");
@@ -15,10 +14,7 @@ public class Main
 
         System.out.println(misty);
         System.out.println(lucy);
-
-
-    } 
-    public static void main(String[] args) {
+        
         Cat cat = new Cat("Ginger");
 
         while(cat.getNumLives() > 0)
