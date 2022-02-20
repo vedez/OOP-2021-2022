@@ -4,7 +4,7 @@ public class Main
 {
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        /*System.out.println("Hello world");
 
         Animal misty = new Animal("Misty");
         Animal lucy = new Animal("Lucy");
@@ -21,7 +21,16 @@ public class Main
         {
             cat.kill();
         }
-        cat.kill();
+        cat.kill();*/
+
+        //Dog Assignment try:
+        Dog dog = new Dog("Wolfie");
+
+        while(dog.getNumLives() > 0)
+        {
+            dog.kill();
+        }
+        dog.kill();
     }
 
 }
