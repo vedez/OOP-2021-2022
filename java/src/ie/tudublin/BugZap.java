@@ -100,7 +100,6 @@ public class BugZap extends PApplet
 		{
 			moveBug();
 		}
-	
+		text("Score: " + score, 50, 50);
 	}
-
 }
