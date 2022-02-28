@@ -145,11 +145,11 @@ Try and draw this using ONE for loop. You will need the [text](https://processin
 
 ![Sketch](images/p27.png)
 
-Use a nested loop to draw this:
+Use a nested loop to draw this: (??)
 
 ![Sketch](images/p23.png)
 
-Use sin and cos to draw this:
+Use sin and cos to draw this: (??)
 
 ![Sketch](images/p30.png)
 
@@ -157,7 +157,6 @@ Use line, sin and cos to draw regular polygons like squares, pentagons, octogons
 
 ![Sketch](images/p10.png)
 
-Draw a procedural star like these:
-
+Draw a procedural star like these: (??)
 ![Sketch](images/p5.png)
 
