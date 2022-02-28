@@ -83,24 +83,8 @@ public class Loops extends PApplet {
 						circle(x, y, d);
 					}
 				}
-<<<<<<< HEAD
+				
 				break;
-			case 3:
-				background(0);
-				colorMode(RGB);
-				float border = width * 0.1f;
-				for(int i = -5; i <= 5; i ++)
-				{
-					float x = map(i, -5, 5, border, width - border);
-					stroke(0, 255, 0);
-					line(x, border, x, height - border);
-					line(border, x, width - border, x);
-					fill(255);
-					text(i, x, border * 0.5f);
-					text(i, border * 0.5f, x);
-				}
-			case 4:
-=======
 				case 3:
 				background(2);
 				colorMode(RGB);
@@ -122,7 +106,6 @@ public class Loops extends PApplet {
 				*/
 
 				case 4:
->>>>>>> lab4
 				background(0);
 				colorMode(RGB);
 				stroke(255);	
@@ -143,11 +126,6 @@ public class Loops extends PApplet {
 
 					//circle(x, y, 20);
 				}
-<<<<<<< HEAD
-=======
-
-
->>>>>>> lab4
 
 				// map(a,b,c,d,e);
 				// a = inputvalue
